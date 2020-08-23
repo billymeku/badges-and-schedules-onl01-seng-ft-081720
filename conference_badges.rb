@@ -4,6 +4,7 @@ def badge_maker(name)
  "Hello, my name is #{name}."
 end 
 
+<<<<<<< HEAD
 def batch_badge_creator(element)
  array = []
  element.each{|name|array << badge_maker(name)}
@@ -23,3 +24,8 @@ def printer(attendees)
 end 
 
   
+=======
+def batch_badge_creator(array)
+ array =
+end
+>>>>>>> 9f117f6dbfc9710628d9e3a3da2dccf18efbf602
